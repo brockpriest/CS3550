@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T20:19:13.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1QbUPCCS_zYYNXTmW2-F" version="21.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-24T20:24:40.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mQsIazsna-MedRd99x5n" version="21.3.3" type="github" pages="2">
   <diagram name="Canvas" id="pXL6dIrCnzcPpcjenNOQ">
     <mxGraphModel dx="1687" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -234,13 +234,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lP_Nt9seeZaTCrzvxkoh-57" value="Constraints" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="880" width="685" height="130" as="geometry" />
+          <mxGeometry x="75" y="880" width="685" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="lP_Nt9seeZaTCrzvxkoh-58" value="All User Information is required for all fields in the table.&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Phone - Must be phone format&lt;/li&gt;&lt;li&gt;Email - Must be email format&lt;/li&gt;&lt;li&gt;Role Must be provided from role table&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="lP_Nt9seeZaTCrzvxkoh-57" vertex="1">
-          <mxGeometry y="30" width="685" height="70" as="geometry" />
+        <mxCell id="lP_Nt9seeZaTCrzvxkoh-58" value="All User Information is required for all fields in the table.&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Phone - Must be phone format&lt;/li&gt;&lt;li&gt;All Fields with PK and FK are required!&lt;/li&gt;&lt;li&gt;Email - Must be email format&lt;/li&gt;&lt;li&gt;Role Must be provided from role table&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="lP_Nt9seeZaTCrzvxkoh-57" vertex="1">
+          <mxGeometry y="30" width="685" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lP_Nt9seeZaTCrzvxkoh-59" value="Grades Table requires Foreign Keys from multiple tables. The can be null as a not graded assignment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="lP_Nt9seeZaTCrzvxkoh-57" vertex="1">
-          <mxGeometry y="100" width="685" height="30" as="geometry" />
+          <mxGeometry y="130" width="685" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lP_Nt9seeZaTCrzvxkoh-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lP_Nt9seeZaTCrzvxkoh-53" target="lP_Nt9seeZaTCrzvxkoh-38" edge="1">
           <mxGeometry relative="1" as="geometry">
